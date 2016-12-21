@@ -31,6 +31,6 @@ public class WelcomeController {
 		if (log.isInfoEnabled()) {
 			log.info("访问IP地址为:?", request.getRemoteAddr());
 		}
-		return "Hello World";
+		return "Hello World Java";
 	}
 }
