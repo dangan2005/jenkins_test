@@ -35,7 +35,7 @@ public class WelcomeController {
 			String ipAddr = getIpAddr(request);
 			log.info("访问IP地址为: {}", ipAddr);
 		}
-		return "Hello World SpringBoot";
+		return "Hello World SpringBoot Test";
 	}
 
 	public static String getIpAddr(HttpServletRequest request) {
