@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @包名：oa.controller
  * @类名：WelcomeController
- * @创建人：孙伟隆
+ * @创建人：孙一
  * @创建时间：2016年12月20日 下午4:12:12
  * 
  * @描述：TODO
@@ -35,7 +35,7 @@ public class WelcomeController {
 			String ipAddr = getIpAddr(request);
 			log.info("访问IP地址为: {}", ipAddr);
 		}
-		return "Hello World Java";
+		return "Hello World SpringBoot";
 	}
 
 	public static String getIpAddr(HttpServletRequest request) {
