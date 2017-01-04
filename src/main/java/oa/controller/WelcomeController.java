@@ -38,6 +38,11 @@ public class WelcomeController {
 		return "Hello World SpringBoot Test";
 	}
 
+	@GetMapping("info")
+	public String info() {
+		return "{}";
+	}
+
 	public static String getIpAddr(HttpServletRequest request) {
 		String ip = request.getHeader("x-forwarded-for");
 		if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
